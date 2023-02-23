@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	padding: 15px;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #525151;
+}
+
+header h1 {
+	color: #cacaca;
+}
+
+header h1 a {
+	color: #cacaca;
+}
+
+.container {
+	width: 650px;
+	height: 650px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #cacaca;
+	border-radius: 5%;
+	box-shadow: 5px 3px 30px #000;
+}
+
+table {
+	border: 3px solid #525151;
+	width: 90%;
+	height: 90%;
+	border-collapse: collapse;
+}
+
+img {
+	max-width: 50px;
+	max-height: 50px;
+}
+
+td {
+	width: 60px;
+	height: 60px;
+	text-align: center;
+}
+
+#a :nth-child(odd) {
+	background: #4d4d4d;
+}
+
+#b :nth-child(even) {
+	background: #4d4d4d;
+}
+
+#c :nth-child(odd) {
+	background: #4d4d4d;
+}
+
+#d :nth-child(even) {
+	background: #4d4d4d;
+}
+
+#e :nth-child(odd) {
+	background: #4d4d4d;
+}
+
+#f :nth-child(even) {
+	background: #4d4d4d;
+}
+
+#g :nth-child(odd) {
+	background: #4d4d4d;
+}
+
+#h :nth-child(even) {
+	background: #4d4d4d;
+}
