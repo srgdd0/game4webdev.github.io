@@ -1,5 +1,8 @@
 # game4webdev.github.io
+
 game for web design lessons
+
+![](img/prew.png)
 
 ```
 .
