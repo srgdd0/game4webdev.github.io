@@ -52,34 +52,10 @@ td {
 	text-align: center;
 }
 
-#a :nth-child(odd) {
+tr:nth-child(even) > td:nth-child(odd) {
 	background: #4d4d4d;
 }
 
-#b :nth-child(even) {
-	background: #4d4d4d;
-}
-
-#c :nth-child(odd) {
-	background: #4d4d4d;
-}
-
-#d :nth-child(even) {
-	background: #4d4d4d;
-}
-
-#e :nth-child(odd) {
-	background: #4d4d4d;
-}
-
-#f :nth-child(even) {
-	background: #4d4d4d;
-}
-
-#g :nth-child(odd) {
-	background: #4d4d4d;
-}
-
-#h :nth-child(even) {
+tr:nth-child(odd) > td:nth-child(even) {
 	background: #4d4d4d;
 }
